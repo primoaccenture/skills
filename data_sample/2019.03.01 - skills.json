@@ -1,0 +1,75 @@
+{
+  "categories" : [ {
+    "description" : "SO Linux",
+    "id" : 0,
+    "name" : "Linux"
+  }, {
+    "description" : "Interface com usuários",
+    "id" : 1,
+    "name" : "FrontEnd"
+  }, {
+    "description" : "Processos internos",
+    "id" : 2,
+    "name" : "BackEnd"
+  }, {
+    "description" : "Aplicações moveis",
+    "id" : 3,
+    "name" : "Mobile"
+  }, {
+    "description" : "teste",
+    "id" : 4,
+    "name" : "Desktop"
+  } ],
+  "levels" : [ {
+    "description" : "Não possuo conhecimento.",
+    "id" : 0,
+    "name" : "Fraudinha",
+    "percent" : "0%"
+  }, {
+    "description" : "Em fase de estudos.",
+    "id" : 1,
+    "name" : "Estudante",
+    "percent" : "33%"
+  }, {
+    "description" : "Utilizo no dia a dia.",
+    "id" : 2,
+    "name" : "Nerd",
+    "percent" : "66%"
+  }, {
+    "description" : "Possuo conhecimento aprofundado.",
+    "id" : 3,
+    "name" : "Jedi",
+    "percent" : "100%"
+  } ],
+  "skills" : [ {
+    "categoryid" : 1,
+    "color" : "#CCCCCC",
+    "id" : 0,
+    "image" : "ic_net.png",
+    "name" : ".NET"
+  }, {
+    "categoryid" : 3,
+    "color" : "#00948C",
+    "id" : 1,
+    "image" : "ic_android.png",
+    "name" : "Android"
+  }, {
+    "categoryid" : 3,
+    "color" : "#99D765",
+    "id" : 2,
+    "image" : "ic_ios.png",
+    "name" : "iOS"
+  }, {
+    "categoryid" : 3,
+    "color" : "#FCFCFC",
+    "id" : 3,
+    "image" : "ic_ionic.png",
+    "name" : "Ionic"
+  }, {
+    "categoryid" : 3,
+    "color" : "#65D7D0",
+    "id" : 4,
+    "image" : "ic_react.png",
+    "name" : "React Native"
+  } ]
+}

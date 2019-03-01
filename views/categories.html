@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKILLS</title>
+
+  <!-- Add to home screen for Safari on iOS -->
+  <link rel="canonical" href="https://myskills.firebaseapp.com/">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Skills">
+  <meta name="msapplication-TileImage" content="../images/logo_144x144.png">
+  <meta name="msapplication-TileColor" content="#00897B">
+  <link rel="apple-touch-icon" href="../images/logo_152x152.png">
+  <link rel="manifest" href="../manifest.json">
+  <!-- Materialize -->
+  <link type="text/css" rel="stylesheet" href="../styles/materialize-1.0.0.min.css" media="screen,projection" />
+  <!-- Override Css-->
+  <link type="text/css" rel="stylesheet" href="../styles/app.css" />
+  <!-- Firebase    -->
+  <script type="text/javascript" src="../scripts/firebase-app-5.4.0.min.js"></script>
+  <script type="text/javascript" src="../scripts/firebase-auth-5.4.0.min.js"></script>
+  <script type="text/javascript" src="../scripts/firebase-database-5.4.0.min.js"></script>
+</head>
+<body class="body">
+    <div class="navbar-fixed nav">
+        <nav class="nav">
+        <div>
+            <a href="#" class="brand-logo">CATEGORIAS</a>
+            <ul id="nav-mobile" class="right">
+                <li>
+                    <a href="#" id="btnLogoff" class="navFont">SAIR</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+    <div class="row center">
+        <div id="lstCategories" class="txtFont">Carregando categorias...</div>
+    </div>
+
+    <script type="text/javascript" src="../scripts/materialize-1.0.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/config.js"></script>
+    <script type="text/javascript" src="../scripts/app_categories.js" async></script>
+</body>
+</html>

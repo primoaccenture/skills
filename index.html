@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKILLS</title>
+
+  <!-- Add to home screen for Safari on iOS -->
+  <link rel="canonical" href="https://myskills.firebaseapp.com/">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Skills">
+  <meta name="msapplication-TileImage" content="images/logo_144x144.png">
+  <meta name="msapplication-TileColor" content="#00897B">
+  <link rel="apple-touch-icon" href="images/logo_152x152.png">
+  <link rel="manifest" href="/manifest.json">
+  <!-- Materialize -->
+  <link type="text/css" rel="stylesheet" href="styles/materialize-1.0.0.min.css" media="screen,projection" />
+  <!-- Override Css-->
+  <link type="text/css" rel="stylesheet" href="styles/app.css" />
+</head>
+<body class="body valign-wrapper" style="min-height: 100vh">
+  <section id="frmSplash">
+    <div class="col s12 center">
+      <div class="center">
+        <img src="images/logo_144x144.png" style="float: left;" />
+        <h3 class="title" style="padding-left: 5%;">SKILLS</h3>
+      </div>
+    </div>
+    <br/>
+    <!-- Description heading-->
+    <div class="row" style="padding-left: 8%">
+        <h6 class="text col s12" style="width: 90%;">Skills é um App que permitirá melhor eficiência na alocação em projetos do time de DDM por meio de um cadastro de níveis de conhecimento nos mais comuns frameworks.</h3>
+    </div>
+  </section>
+  
+  <script type="text/javascript" src="scripts/materialize-1.0.0.min.js"></script>
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function() { 
+        
+      });
+    }
+
+    setTimeout(function() { 
+      window.location.assign("views/login.html"); 
+    }, 3000);
+  </script>  
+</body>
+</html>
